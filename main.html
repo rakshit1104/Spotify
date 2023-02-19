@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/08908f9f5c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li id="picture"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Songs List -->
+    <div class="songList">
+        <div class="songItem" >
+            <img src="covers/1.jpg" alt="">
+            <i id="1" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Let Me Love You</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/2.jpg" alt="">
+            <i id="2" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Perfect</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/3.jpg" alt="">
+            <i id="3" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Locked Away</h4>
+        </div>
+    </div>
+
+    <div class="songList">
+        <div class="songItem" >
+            <img src="covers/4.jpg" alt="">
+            <i id="4" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Story Of My Life</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/5.jpg" alt="">
+            <i id="5" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Night Changes</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/6.jpg" alt="">
+            <i id="6" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>I Like Me Better</h4>
+        </div>
+    </div>
+
+    <div class="songList">
+        <div class="songItem" >
+            <img src="covers/7.jpg" alt="">
+            <i id="7" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Soocha Na Tha</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/8.jpg" alt="">
+            <i id="8" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Maan Meri Jaan</h4>
+        </div>
+        <div class="songItem" >
+            <img src="covers/9.jpg" alt="">
+            <i id="9" class="songPlayButton fa-solid fa-circle-play fa-2xl"></i>
+            <br>
+            <h4>Tu Hi Das De</h4>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-backward fa-2xl"></i>
+            <i id="mainPlayButton" class="fa-solid fa-circle-play fa-2xl"></i>
+            <i id="next" class="fa-solid fa-forward fa-2xl"></i>
+        </div>
+
+        <div id="currentSong">Let Me Love You</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
